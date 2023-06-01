@@ -38,7 +38,7 @@
 <h3 align="center">80's Music Trivia!</h3>
 
   <p align="center">
-    This is a game I created in Python that tests your knowledge of songs from the 80's!
+    This is a game I created in Python that tests your knowledge of songs from the 80's! <br>
     Please copy and paste the Python code into Visual Studio Code or other code editor and run the game!
     <br />
     <a href="https://github.com/nater9ster/python_80s_musictrivia"><strong>Explore the docs »</strong></a>

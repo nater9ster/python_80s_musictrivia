@@ -32,14 +32,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/nater9ster/python_80s_musictrivia">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">80's Music Trivia!</h3>
 
   <p align="center">
     This is a game I created in Python that tests your knowledge of songs from the 80's! <br>
-    Please copy and paste the Python code into Visual Studio Code or other code editor and run the game!
     <br />
     <a href="https://github.com/nater9ster/python_80s_musictrivia"><strong>Explore the docs »</strong></a>
     <br />
@@ -84,24 +82,19 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-
+ <p>The key features: The user gets to play a quiz type game by guessing which 80’s music artist sang the lyrics shown to them. If they guess correctly they score 100 points. If incorrect they will be shown 3 artists to choose from, if they guess the correct one out of the three they receive 50 points. Once the user reaches 1000 points, they win the game!</p>
+      <p>The design is fairly simple using a class Question to initiate randomly each question as an object. The attributes are (self, lyrics, correct_answer, options) I took these 3 attributes of each object and put them into a large list. I listed them each as Question(“lyrics”, “correct_answer”, [“option1”, “option2”, “option3”])
+	This allowed me to randomly iterate through the questions list. I had a difficult time figuring this out, but was successful using a for loop “for Question in questions”.
+	Another challenge at first was making the case not matter, because I was using different cases in lyrics and correct_answer and needed to make sure the case wouldn’t matter from the user input. I.e. Motley Crue = motley crue 
+	I was able to use .lower everywhere user input was made, I.e. answer.lower and correct_answer.lower which made it not matter what case was used as long as the characters matched.</p>
+ <p>I learned how to implement Class and lists and enjoyed finally getting the game to work out! A fun additional feature would be to implement a 10 second timer giving the user urgency to answer the question. Also making the actual sound byte come up when the lyric comes up, or perhaps even replacing the lyric shown on the screen with just the actual lyric as a sound byte.</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* Python!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,12 +103,9 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -144,21 +134,12 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
 ## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
 
 See the [open issues](https://github.com/nater9ster/python_80s_musictrivia/issues) for a full list of proposed features (and known issues).
 

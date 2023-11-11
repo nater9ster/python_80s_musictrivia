@@ -42,7 +42,7 @@
     <a href="https://github.com/nater9ster/python_80s_musictrivia"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/nater9ster/python_80s_musictrivia">View Demo</a>
+    <a href="https://replit.com/@nater9ster/80sMusicTriviaChallenge?v=1">Play the Game right here!</a>
     ·
     <a href="https://github.com/nater9ster/python_80s_musictrivia/issues">Report Bug</a>
     ·
